@@ -1061,9 +1061,9 @@ koa@^1.2.4:
     type-is "^1.5.5"
     vary "^1.0.0"
 
-kox@0.2.1:
-  version "0.2.1"
-  resolved "http://registry.npm.taobao.org/kox/download/kox-0.2.1.tgz#ebef51b68ecfc07a74497b412aa290610fa8d012"
+kox:
+  version "0.2.3"
+  resolved "http://registry.npm.taobao.org/kox/download/kox-0.2.3.tgz#51d26dbc65ed9b72284c26b5786dd9d3f313f17b"
   dependencies:
     bluebird "^3.4.6"
     chalk "^1.1.3"
