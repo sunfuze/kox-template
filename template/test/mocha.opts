@@ -1,0 +1,8 @@
+--require co-mocha
+--recursive
+--check-leaks
+--bail
+--reporter spec
+--ui bdd
+--require test/mocha.init.js
+test/**/*.test.js

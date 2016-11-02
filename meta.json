@@ -1,0 +1,20 @@
+{
+    "prompts": {
+        "name": {
+            "type": "string",
+            "required": true,
+            "label": "Project name"
+        },
+        "description": {
+            "type": "string",
+            "required": true,
+            "label": "Project description",
+            "default": "A NodeJs project"
+        },
+        "author": {
+            "type": "string",
+            "label": "Author"
+        }
+    },
+    "completeMessage": "To get started:\n\n cd {{destDirName}}\n yarn\n node app\n"
+}
