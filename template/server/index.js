@@ -15,8 +15,7 @@ const app = kox()
 Object.assign(app, config.get('application'))
 app.use(etag())
 app.use(compress())
-app.loadDeps(requireDir('./deps'))
-app.loadCtrls(requireDir('./controllers'))
-app.loadApis(requireDir('./apis'), config.get('swagger', {}))
 
+app.swagger = config.get('swagger', {})
+app.loadServer()
 module.exports = app
