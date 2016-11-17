@@ -1413,7 +1413,7 @@ repeat-string@^1.5.2:
   version "1.6.1"
   resolved "http://registry.npm.taobao.org/repeat-string/download/repeat-string-1.6.1.tgz#8dcae470e1c88abc2d600fff4a776286da75e637"
 
-require-dir@^0.3.0, require-dir@^0.3.1:
+require-dir, require-dir@^0.3.0, require-dir@^0.3.1:
   version "0.3.1"
   resolved "http://registry.npm.taobao.org/require-dir/download/require-dir-0.3.1.tgz#b5a8e28bae0343bb0d0cc38ab1f531e1931b264a"
 
