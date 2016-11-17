@@ -11,6 +11,7 @@ helper.genContext = function () {
   .reduce((context, field) => {
     context[field] = {}
   }, {})
+  context.ip = '127.0.0.1'
   Object.assign(context, deps)
   return context
 }
