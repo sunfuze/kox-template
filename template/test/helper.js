@@ -17,5 +17,5 @@ helper.genContext = function () {
 }
 
 helper.getActions = (name) => {
-  return require('../../server/controllers/' + name).actions
+  return require('../server/controllers/' + name).actions
 }
