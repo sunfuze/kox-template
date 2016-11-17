@@ -14,3 +14,7 @@ helper.genContext = function () {
   Object.assign(context, deps)
   return context
 }
+
+helper.getActions = (name) => {
+  return require('../../server/controllers/' + name).actions
+}
