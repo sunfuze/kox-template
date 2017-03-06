@@ -1,6 +1,3 @@
-/**
- * Created by sunfuze on 11/1/16.
- */
 'use strict'
 const { join } = require('path')
 const fs = require('fs-extra')

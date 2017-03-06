@@ -1,6 +1,3 @@
-/**
- * Created by sunfuze on 17/11/2016.
- */
 'use strict'
 const requireDir = require('require-dir')
 const helper = module.exports = {}

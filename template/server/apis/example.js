@@ -1,6 +1,3 @@
-/**
- * Created by sunfuze on 11/2/16.
- */
 'use strict'
 const Joi = require('joi')
 
